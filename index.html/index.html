@@ -115,10 +115,8 @@ X-SOCIALPROFILE;TYPE=INSTAGRAM:${instagram}
 END:VCARD`;
 
     var dataUrl = "data:text/vcard;charset=utf-8," + encodeURIComponent(vCard);
-    var link = document.createElement("a");
-    link.href = dataUrl;
-    link.download = "Fayez_Alchohof.vcf";
-    link.click();
+
+    window.open(dataUrl);
   }
 </script>
 
