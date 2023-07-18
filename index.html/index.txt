@@ -148,7 +148,7 @@ and expand my  portfolio further.</p1>
     <a href="https://wa.link/wh359v"><img src="whatsapp.png" style="height: 64px;"></a>
     <a href="https://www.instagram.com/w.xiii.design/"><img src="instagram.png" style="height: 64px;"></a>
     <a href="Fayez Alchoof Cv 2023.pdf"><img src="cv.png" style="width: 64px;"></a>
-    <a href="Graphic Portfolio.pdf"><img src="Pr.png" style="width: 64px;"></a>
+    <a href="Graphic Portfolio s.pdf"><img src="Pr.png" style="width: 64px;"></a>
     <a href="mailto:fayezalchohuff@gmail.com"><img src="mail.png" style="width: 64px;"></a>
   </div>
    
