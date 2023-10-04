@@ -1,0 +1,213 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Visual Business Card</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      color: #444;
+    }
+
+      .container {
+    max-width: 499px;
+    max-hight: 321px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url("c 499-321.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+      .container1 {
+    max-width: 236px;
+    max-hight: 119px;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 20px;
+    background-image: url("c 236-119 cv.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+      .container12 {
+    max-width: 236px;
+    max-hight: 119px;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 20px;
+    background-image: url("c 236-119 pr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+      .container2 {
+    max-width: 499px;
+    max-hight: 119px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url("c 499-119.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+      .container3 {
+    max-width: 499px;
+    max-hight: 149px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url("c 499-149.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+    .profile-pic {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      margin: 0 auto 20px auto;
+      object-fit: cover;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-family:  "Cambria", Arial, sans-serif;
+      color: #fff;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 24px;
+      font-family:  "Ebrima", Arial, sans-serif;
+      color: #CEB033;
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 18px;
+      color: #fff;
+      line-height: 1.5;
+      margin: 0;
+      padding: 10px;
+    }
+
+
+    .icon {
+      font-size: 30px;
+      color: #0077b5;
+      margin-right: 10px;
+    }
+
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .social-icons a i {
+      transition: all 0.3s ease-in-out;
+    }
+
+    .social-icons a:hover i {
+      transform: scale(1.2);
+      color: #0077b5;
+    }
+
+   
+
+    .save-contact {
+    margin: 20px 0;
+
+    }
+
+  </style>
+
+
+<script>
+function saveContact() {
+    // Get the contact information
+    var name = "MR Fayez Alchohof";
+    var phoneNumber = "+971566739522";
+    var email = "fayezalchohuff@gmail.com";
+    var instagram = "https://www.instagram.com/w.xiii.design/";
+    var companyName = "Graphic Designer";
+
+
+    var vCard = `BEGIN:VCARD
+VERSION:3.0
+N:${name};;;;
+ORG:${companyName}
+TEL;TYPE=CELL:${phoneNumber}
+EMAIL:${email}
+X-SOCIALPROFILE;TYPE=INSTAGRAM:${instagram}
+END:VCARD`;
+
+    var dataUrl = "data:text/vcard;charset=utf-8," + encodeURIComponent(vCard);
+    var link = document.createElement("a");
+    link.href = dataUrl;
+    link.download = "Fayez_Alchohof.vcf";
+    link.click();
+  }
+</script>
+
+</head>
+<body>
+<div class="container">
+  <img src="pd.png">
+  <h1>Mr Fayez Alchohof</h1>
+  <h2>Graphic designer</h2>
+  <p>As a skilled Graphic Designer and Digital Artist, I possess extensive experience in 
+graphic design, digital art, and video editing. My proficiency in  software such as 
+Photoshop, Premier, Illustrator, After Effects, and Clip Studio Paint.
+allows  me  to  effectively  bring   creative  ideas   to   life.   Additionally, my   solid
+understanding of marketing principles  and  certification in Instagram marketing
+equips me with  expertise in social media strategies.<br>
+
+Throughout    my   career,  I  have   consistently   delivered    high-quality  designs 
+and  worked  with   reputable   companies,   establishing  a proven   track   record
+of  success. I am  currently seeking new opportunities to contribute my expertise
+and expand my  portfolio further.</p>
+  </div>
+
+    <a href="Fayez Alchoof Cv 2023.pdf"><div class="container1"></div></a>
+    <a href="Graphic Portfolio.pdf"><div class="container12"></div></a>
+  
+  <div class="container2">
+  <div class="social-icons">
+    <a href="https://wa.link/wh359v"><img src="whatsapp.png" style="height: 64px;"></a>
+    <a href="https://www.instagram.com/w.xiii.design/"><img src="instagram.png" style="height: 64px;"></a>
+    <a href="mailto:fayezalchohuff@gmail.com"><img src="mail.png" style="width: 64px;"></a>
+  </div>
+</div>
+   
+ 
+ <a href="#" onclick="saveContact()">
+  <div class="container3">
+  <div class="save-contact">
+  <a href="#" onclick="saveContact()">
+    <img src="D.png" alt="Save Contact" style="vertical-align: middle; margin-right: 10px;">
+  </div>
+</div>
+  </a>
+
+</body>
+</html>
